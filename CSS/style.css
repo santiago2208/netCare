@@ -12,7 +12,6 @@ html{
 /*aqui comienza el nav*/
 
 .navbar {
-    position: fixed;
     width: 100%;
 }
 
