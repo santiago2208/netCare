@@ -8,7 +8,16 @@ html{
     font-size: 1rem;
 }
 
-.navbar {
-    display: flex;
+.navbar-collapse {
     justify-content: center;
+   
 }
+
+
+
+@media (min-width: 993px) {
+    .navbar-nav {
+        gap: 100px;
+    }
+}
+
