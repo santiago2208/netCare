@@ -7,3 +7,6 @@ html{
     font-size: 62.5%;
 }
 
+.fluid {
+    margin: 0 auto;
+}
