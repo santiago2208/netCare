@@ -54,6 +54,10 @@ h1 {
     margin: 30px;
 }
 
+.card{
+    margin-top: 20px;
+}
+
 
 @media (min-width: 993px) {
     .navbar-nav {
