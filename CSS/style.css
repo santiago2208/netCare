@@ -57,11 +57,15 @@ html{
 
 h1 {
     margin: 30px;
+    text-align: center;
 }
 
 .card{
     margin-top: 20px;
 }
+
+
+
 
 footer {
     background-color: rgb(186, 199, 210);
