@@ -11,9 +11,13 @@ html{
 
 /*aqui comienza el nav*/
 
+.navbar {
+    position: fixed;
+    width: 100%;
+}
+
 .navbar-collapse {
     justify-content: center;
-   
 }
 
 .navbar-nav {
@@ -26,11 +30,12 @@ html{
 .sec1 {
     width: 100%;
     height: 600px;
+    padding-top: 56px;
 }
 
 .sec1 img {
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 .sec2{
