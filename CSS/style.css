@@ -5,8 +5,10 @@
 }
 html{
     font-size: 62.5%;
+    font-size: 1rem;
 }
 
-.fluid {
-    margin: 0 auto;
+.navbar {
+    display: flex;
+    justify-content: center;
 }
