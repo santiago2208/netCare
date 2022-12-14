@@ -24,6 +24,11 @@ html{
     padding-right: 10px;
 }
 
+.logo, .navbar-brand p{
+    position: relative;
+    left: 50px;
+}
+
 /*aqui termina el nav*/
 
 .sec1 {
