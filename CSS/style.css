@@ -64,9 +64,19 @@ html{
     height: 100%;
 }
 
+/*
 .sec2{
-    background-color: #f8f9fa;
+    background-color: #f8f9fa;    
 }
+*/
+
+body{
+    background-image: url("../img/Fondo.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
 
 .sec2_cont {
     max-width: 1300px;
@@ -101,7 +111,7 @@ h1 {
 
 
 footer {
-    background-color: rgb(186, 199, 210);
+    background-color: rgba(186, 199, 210, 0.384);
 }
 
 .footer_sec{
