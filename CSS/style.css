@@ -27,6 +27,24 @@ html{
 .logo, .navbar-brand p{
     position: relative;
     left: 50px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.logo{
+    width: auto;
+    height: 50px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    
+}
+
+.navbar-brand p{    
+    color: #104685;
+    font-size: 1.6rem;
+    margin: 0;
+    position: absolute;
+    top: 38px;
+    left: 62px;
 }
 
 /*aqui termina el nav*/
