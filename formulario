@@ -1,0 +1,75 @@
+  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#iniciar_sesion">
+    iniciar sesion
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="registro" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">singup</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form action="" class="formulario">
+                <p>Email</p>
+                <input type="email" placeholder="email">
+
+                <p>password</p>
+                <input type="password">
+
+                <p>confirm password</p>
+                <input type="password">
+            </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+   <!-- Modal 2 -->
+   <div class="modal fade" id="iniciar_sesion" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">iniciar sesion</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form action="" class="formulario">
+                <p>Email</p>
+                <input type="email" placeholder="email">
+
+                <p>password</p>
+                <input type="password">
+            </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#registro">
+            registro
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  .formulario {
+    padding: 0 30px;
+    padding-bottom: 10px;
+}
+
+.formulario p {
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.formulario input{
+    width: 100%;
+    height: 40px;
+}
