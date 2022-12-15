@@ -108,6 +108,24 @@ h1 {
     font-size: 1.2rem;
 }
 
+/* modal formulario */
+
+.formulario {
+    padding: 0 30px;
+    padding-bottom: 10px;
+}
+
+.formulario p {
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.formulario input{
+    width: 100%;
+    height: 40px;
+}
+
+/* fin modal formulario */
 
 
 footer {
