@@ -30,6 +30,10 @@ html{
     font-family: 'Dancing Script', cursive;
 }
 
+.tittle_profile, .nav-link{
+    color: #104685;
+}
+
 .logo{
     width: auto;
     height: 50px;
@@ -75,6 +79,10 @@ html{
     justify-content: space-evenly;
     flex-wrap: wrap;
     gap:10px;
+}
+
+.btn-primary{
+    margin-left: 45px;
 }
 
 h1 {
