@@ -53,6 +53,8 @@ html{
 
 /*aqui termina el nav*/
 
+
+ 
 .sec1 {
     width: 100%;
     height: 600px;
@@ -62,12 +64,12 @@ html{
 .sec1 img {
     width: 100%;
     height: 100%;
-}
+} 
 
-
-.sec2{
-    background-color: #f8f9fa;    
-}
+ .sec2{
+    margin-top: 50px;
+    margin-bottom: 300px;
+} 
 
 .T1{
     font-size: 100px;
@@ -117,7 +119,24 @@ h1 {
     font-size: 1.2rem;
 }
 
+/* modal formulario */
 
+.formulario {
+    padding: 0 30px;
+    padding-bottom: 10px;
+}
+
+.formulario p {
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.formulario input{
+    width: 100%;
+    height: 40px;
+}
+
+/* fin modal formulario */
 
 footer {
     background-color: rgba(186, 199, 210, 0.384);

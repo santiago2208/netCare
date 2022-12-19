@@ -55,52 +55,86 @@
             </li>
           </ul>
         </div>
+        <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a data-bs-toggle="modal" data-bs-target="#iniciar_sesion" class="nav-link" href="#iniciar_sesion">Login</a>
+          </li>
+        </ul>
+      </div>
       </nav>
 
     <main>
+
+      <!--
     <section class="sec1">
         <img src="./img/0. Banner central.png" alt="">
     </section>
-
-    
+      -->
+    <section class="sec1">
+      <h1>Prices</h1>
+    </section>
 
     <section class="sec3">
+      
       <table>
         <tr>
-          <th class="left1">lorem</th>
+          <th class="left1">
+            <h3>
+            Professional
+            <br>
+            Talent
+          </h3>
+          </th>
           <th>
-            <h3>lorem</h3>
-            <h5>lorem</h5>
-            <p>Lorem ipsum dolor</p>
+            <h3>Daily rate</h3>
+          </th>
+          <th>
+            <h3>Weekly rate</h3>
           </th>
           <th class="right1">
-            <h3>lorem</h3>
-            <h5>lorem</h5>
-            <a href="">Lorem ipsum, dolor sit amet consectetur </a>
-            <p>√ Lorem ipsum dolor</p>
+            <h3>Monthly fee</h3>
           </th>
         </tr>
 
         <tr>
-          <td><b>lorem</b></td>
-          <td colspan="2" class="columna2">lorem</td>
-  
+          <td><b>CNA</b> <br> Certified Nursing Assistant</td>
+          <td>$200</td>
+          <td>$800</td>
+          <td>$2400</td>  
         </tr>
         <tr>
-          <td><b>lorem</b></td>
-          <td colspan="2" class="columna2">lorem</td>
+          <td><b>LPN / LVN</b> <br>Licensed Practical Nurse or Licensed Vocational Nurse</td>
+          <td>$240</td>
+          <td>$1000</td>
+          <td>3200</td>
         </tr>
         <tr>
-          <td><b>lorem</b></td>
-          <td colspan="2" class="columna2">lorem</td>
+          <td><b>MA</b> <br> Medical Assistant</td>
+          <td>$200</td>
+          <td>$800</td>
+          <td>$2400</td>  
         </tr>
         <tr>
-          <td class="left2"><b>lorem</b></td>
-          <td colspan="2" class="columna2 right2">lorem</td>
+          <td><b>RN</b> <br> Registered Nurse</td>
+          <td >$320</td>
+          <td>1400</td>
+          <td>4800</td>
         </tr>
-      </table>
-     
+        <tr>
+          <td class="left2"><b>APRN</b> <br> Advanced Practice Registered Nurse</td>
+          <td>$400</td>
+          <td>$1800</td>
+          <td colspan="2" class="columna2 right2">$6400</td>
+        </tr>
+      </table>       
+    </section>    
+    <section class="Sec2">
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#iniciar_sesion">
+        Hire now
+      </button>
     </section>
+
     </main>
 
     <footer>
@@ -281,6 +315,60 @@
           </div>
         </div>
       </div>
+
+
+      <div class="modal fade" id="registro" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Sign Up</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form action="" class="formulario">
+            <p>Email</p>
+            <input type="email" placeholder="email">
+
+            <p>password</p>
+            <input type="password">
+
+            <p>confirm password</p>
+            <input type="password">
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">Sign Up</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 2 -->
+  <div class="modal fade" id="iniciar_sesion" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Login</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form action="" class="formulario">
+            <p>Email</p>
+            <input type="email" placeholder="email">
+
+            <p>Password</p>
+            <input type="password">
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">Login</button>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#registro">
+            Sign Up
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
 

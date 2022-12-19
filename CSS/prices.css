@@ -54,14 +54,9 @@ html{
 /*aqui termina el nav*/
 
 .sec1 {
-    width: 100%;
-    height: 600px;
-    padding-top: 56px;
-}
+    margin-top: 150px;
+    text-align: center;
 
-.sec1 img {
-    width: 100%;
-    height: 100%;
 }
 
 /*
@@ -79,6 +74,9 @@ body{
 .sec3{
     display: flex;
     justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+
 }
 
 
@@ -107,6 +105,7 @@ th, td{
     border-right: solid 1px black;
     border-bottom: solid 1px black;
     background-color: white;
+    text-align: center;
 }
 
 td:first-child,th:first-child{
@@ -128,6 +127,31 @@ th{
 .columna2 {
     text-align: center;
 }
+
+.Sec2{
+    margin-top: 0;
+    margin-left: 50%;
+    margin-bottom: 200px;    
+}
+
+/* modal formulario */
+
+.formulario {
+    padding: 0 30px;
+    padding-bottom: 10px;
+}
+
+.formulario p {
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.formulario input{
+    width: 100%;
+    height: 40px;
+}
+
+/* fin modal formulario */
 
 
 
