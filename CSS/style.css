@@ -160,3 +160,43 @@ footer img{
     }
 }
 
+
+
+.collapse:not(.show) {
+    display: none;
+}
+
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+}
+
+
+
+}
+
+
+.log_mod2 {
+   
+        display: none;
+}
+
+
+@media (min-width: 991px){
+   
+    .navbar .log_mod1 {
+       
+        display: none!important;
+    }
+
+    .log_mod2 {
+      
+            display: block;
+    }
+    
+    
+    }
+
+
+
