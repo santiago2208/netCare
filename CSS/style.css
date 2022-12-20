@@ -86,7 +86,7 @@ body{
 }
 
 .btn-primary{
-    margin-left: 45px;
+    margin-left: 30px;
 }
 
 h1 {
@@ -159,4 +159,44 @@ footer img{
         text-align: center;
     }
 }
+
+
+
+.collapse:not(.show) {
+    display: none;
+}
+
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+}
+
+
+}
+
+/* optimizacion del nav pendiente*/
+
+.log_mod2 {
+        display: none;
+}
+
+
+@media (min-width: 991px){
+   
+    .navbar .log_mod1 {
+       
+        display: none!important;
+    }
+
+    .log_mod2 {
+      
+            display: block;
+    }
+    
+    }
+
+    /* optimizacion del nav pendiente*/
+
+
 

@@ -176,3 +176,27 @@ footer img{
     }
 }
 
+
+/* optimizacion del nav pendiente*/
+
+.log_mod2 {
+    display: none;
+}
+
+
+@media (min-width: 991px){
+
+.navbar .log_mod1 {
+   
+    display: none!important;
+}
+
+.log_mod2 {
+  
+        display: block;
+}
+
+}
+
+/* optimizacion del nav pendiente*/
+
