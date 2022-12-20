@@ -70,6 +70,19 @@ html{
     padding-bottom: 250px;
 }
 
+.left1{
+    border-top-left-radius: 10px;
+}
+.left2{
+    border-bottom-left-radius: 10px;
+}
+.right1{
+    border-top-right-radius: 10px;
+}
+.right2{
+    border-bottom-right-radius: 10px;
+}
+
 body{
     background-image: url("../img/Fondo.png");
     background-repeat: no-repeat;
